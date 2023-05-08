@@ -22,3 +22,14 @@ Route::get('/', function () {
     $paese = 'Venturina Terme';
     return view('home', $data, compact('indirizzo', 'paese'));
 });
+
+Route::get('/header', function () {
+    $links = [
+        'home',
+        'pag-1',
+        'pag-2',
+        'pag-3',
+        'pag-4'
+    ];
+    return view('header', compact('links'));
+})->name('header');

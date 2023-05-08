@@ -15,5 +15,9 @@
     </p>
 
     ed abito in {{$indirizzo}} a {{$paese}}
+
+    <br>
+
+--> <a href="{{route('header')}}">Bonus</a>
 </body>
 </html>
