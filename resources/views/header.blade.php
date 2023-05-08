@@ -19,7 +19,7 @@
             <div class="nav-center">
                 <ul>
                     @foreach ($links as $link)
-                        <li>{{$link}}</li>
+                        <li> <a href="{{route($link)}}">{{$link}}</a>  </li>
                     @endforeach
 
                 </ul>
@@ -31,5 +31,9 @@
             </div>
         </nav>
     </header>
+
+    <h2>
+        Torna alla <a href="{{route('home')}}">home</a>
+    </h2>
 </body>
 </html>

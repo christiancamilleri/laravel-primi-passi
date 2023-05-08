@@ -18,3 +18,8 @@ header nav ul {
 
     list-style-type: none;
 }
+
+h2 {
+    margin-top: 3em;
+    text-align: center;
+}
